@@ -6,7 +6,7 @@
 #include <cstdlib>
 #include <stdint.h>
 using namespace std::chrono;
-const int64_t L1D_CACHE_SIZE = 32768;
+const int64_t L1D_CACHE_SIZE = 31000;
 
 /// Generate primes using the segmented sieve of Eratosthenes.
 /// This algorithm uses O(n log log n) operations and O(sqrt(n)) space.
