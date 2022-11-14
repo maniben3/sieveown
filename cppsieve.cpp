@@ -6,7 +6,7 @@
 #include <stdint.h>
 
 /// Set your CPU's L1 data cache size (in bytes) here
-const int64_t L1D_CACHE_SIZE = 32768;
+const int64_t L1D_CACHE_SIZE = 63768;
 
 /// Bitmasks needed to unset bits corresponding to multiples
 const int64_t unset_bit[16] =
