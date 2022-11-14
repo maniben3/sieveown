@@ -81,6 +81,6 @@ int main(int argc, char** argv)
     segmented_sieve(1000000000);
   auto stop = high_resolution_clock::now();
   auto duration = duration_cast<microseconds>(stop - start);
-  cout << duration.count() << endl;
+  std::cout << duration.count() << std::endl;
   return 0;
 }
