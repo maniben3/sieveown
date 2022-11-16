@@ -7,7 +7,7 @@
 #include <pthread.h>
 #include <thread>
 
-#define GPUS 2
+#define GPUS 1
 #define BYTE unsigned char
 #define THREADS 64
 #define BLOCKS 256
